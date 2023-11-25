@@ -1,6 +1,6 @@
 # Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-
-name:Thenmozhi p
-reg:23005024
+name:Thenmozhi p<BR>
+reg:23005024<BR>
  AIM:
 To study about the different digital IC’s and to verify the truth table in Quartus for the basic logic gates using Verilog programming.
 
@@ -59,7 +59,8 @@ Switch ON the main switch
 Press the switches for inputs “A” and “B”. The switch is ON state when 1 is pressed. The switch is OFF state when 0 is pressed.
 If the output is 1, then the bulb glows.
 Check all the gates following the same procedure.
-Program:
+Program:<BR>
+```
 module Logicgates(a,b,y1,y2,y3,y4,y5,y6,y7);
 input a,b;
 output y1,y2,y3,y4,y5,y6,y7;
@@ -71,9 +72,10 @@ nand(y5,a,b);
 nor(y6,a,b);
 xnor(y7,a,b);
 endmodule
-TRUTH TABLE:
+```
+TRUTH TABLE:<BR>
 ![image](https://github.com/thenmozhi05/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/140684207/f40a99ee-454b-40b6-973d-42ed3ea80afb)
-RTL Relization:
+RTL Relization:<BR>
 ![image](https://github.com/thenmozhi05/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/140684207/f7934c74-9112-4e48-9355-ada72817b663)
 
 
